@@ -294,14 +294,16 @@ h1, h2, h3, h4, h5, h6 {
 /*======================
 ====Main Slider CSS=====
 =======================*/
-.home-pattern {
+/* .home-pattern { */
+.carousel-overlay{
 	height:100%;
 	position:absolute;
 	width:100%;
 	z-index:1;
 	left:0;
 	bottom:0;
-	background-image:url(../images/home-pattern.png);
+	background-color: rgba(0,0,0,0.7);
+	/* background-image:url(../images/home-pattern.png); */
 	background-repeat:repeat;
 	opacity:0.2;
 }
